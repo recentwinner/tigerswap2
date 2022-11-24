@@ -1,0 +1,16 @@
+warning package.json: No license field
+$ tsup
+CLI Building entry: {"index":"index.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI tsup v5.12.9
+CLI Using tsup config: /Users/tushershikder/Documents/tigerswap/swapdapp2/pancake-frontend-develop/packages/multicall/tsup.config.ts
+CLI Target: node12
+ESM Build start
+CJS Build start
+ESM ⚡️ Build success in 8ms
+CJS ⚡️ Build success in 8ms
+ESM dist/index.mjs 9.98 KB
+CJS dist/index.js 11.20 KB
+DTS Build start
+DTS ⚡️ Build success in 918ms
+DTS dist/index.d.ts 1.74 KB

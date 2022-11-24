@@ -1,0 +1,16 @@
+warning package.json: No license field
+$ tsup
+CLI Building entry: {"evm":"evm/index.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI tsup v5.12.9
+CLI Using tsup config: /Users/tushershikder/Documents/tigerswap/swapdapp2/pancake-frontend-develop/packages/smart-router/tsup.config.ts
+CLI Target: node12
+ESM Build start
+CJS Build start
+ESM ⚡️ Build success in 30ms
+CJS ⚡️ Build success in 29ms
+CJS dist/evm.js 105.36 KB
+ESM dist/evm.mjs 95.76 KB
+DTS Build start
+DTS ⚡️ Build success in 1332ms
+DTS dist/evm.d.ts 1.90 KB

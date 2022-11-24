@@ -1,0 +1,22 @@
+warning package.json: No license field
+$ tsup
+CLI Building entry: {"index":"./src/index.ts","react":"./react/index.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.2.3
+CLI Using tsup config: /Users/tushershikder/Documents/tigerswap/swapdapp2/pancake-frontend-develop/packages/token-lists/tsup.config.ts
+CLI Target: node14
+CJS Build start
+ESM Build start
+ESM dist/index.mjs                 208.00 B
+ESM dist/getTokenList-T45DK2AY.mjs 13.04 KB
+ESM dist/chunk-YBVZDUCZ.mjs        1.92 KB
+ESM dist/react.mjs                 7.70 KB
+ESM ⚡️ Build success in 19ms
+CJS dist/index.js 3.11 KB
+CJS dist/react.js 25.22 KB
+CJS ⚡️ Build success in 21ms
+DTS Build start
+DTS ⚡️ Build success in 1310ms
+DTS dist/index.d.ts          1.54 KB
+DTS dist/react.d.ts          2.63 KB
+DTS dist/types-b620c9be.d.ts 1.03 KB

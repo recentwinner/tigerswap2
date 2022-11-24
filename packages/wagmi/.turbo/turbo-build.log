@@ -1,0 +1,28 @@
+warning package.json: License should be a valid SPDX license expression
+$ tsup
+CLI Building entry: {"index":"src/index.ts","connectors/miniProgram":"connectors/miniProgram/index.ts","connectors/binanceWallet":"connectors/binanceWallet/index.ts","connectors/blocto":"connectors/blocto/index.ts","chains":"chains/index.ts"}
+CLI Using tsconfig: tsconfig.json
+CLI tsup v6.2.3
+CLI Using tsup config: /Users/tushershikder/Documents/tigerswap/swapdapp2/pancake-frontend-develop/packages/wagmi/tsup.config.ts
+CLI Target: node14
+ESM Build start
+CJS Build start
+CJS dist/index.js                    3.96 KB
+CJS dist/connectors/binanceWallet.js 4.17 KB
+CJS dist/chains.js                   3.84 KB
+CJS dist/connectors/blocto.js        6.00 KB
+CJS dist/connectors/miniProgram.js   3.22 KB
+CJS ⚡️ Build success in 29ms
+ESM dist/connectors/miniProgram.mjs   2.14 KB
+ESM dist/connectors/binanceWallet.mjs 3.09 KB
+ESM dist/chains.mjs                   2.57 KB
+ESM dist/connectors/blocto.mjs        4.58 KB
+ESM dist/index.mjs                    2.33 KB
+ESM ⚡️ Build success in 30ms
+DTS Build start
+DTS ⚡️ Build success in 1728ms
+DTS dist/index.d.ts                    1013.00 B
+DTS dist/connectors/miniProgram.d.ts   803.00 B
+DTS dist/connectors/binanceWallet.d.ts 1.23 KB
+DTS dist/connectors/blocto.d.ts        1.44 KB
+DTS dist/chains.d.ts                   367.00 B
